@@ -1,0 +1,74 @@
+[
+    {
+        "precio": "100",
+        "id": 1,
+        "title": "Té de flor de manzanilla x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr1.jpg"
+    },
+    {
+        "precio": "250",
+        "id": 2,
+        "title": "Té de flor de lavanda x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr2.jpg"
+    },
+    {
+        "precio": "250",
+        "id": 3,
+        "title": "Té de flores silvestres x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr3.jpg"
+    },
+    {
+        "precio": "250",
+        "id": 4,
+        "title": "Té de flores gardenias x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr4.jpg"
+    },
+    {
+        "precio": "255",
+        "id": 5,
+        "title": "Té de flores con leche x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr5.jpg"
+    },
+    {
+        "precio": "100",
+        "id": 6,
+        "title": "Té de rosas x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr6.jpg"
+    },
+    {
+        "precio": "150",
+        "id": 7,
+        "title": "Té de frutos con flores x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr7.jpg"
+    },
+    {
+        "precio": "250",
+        "id": 8,
+        "title": "Té con leche y frutos rojos x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr8.jpg"
+    },
+    {
+        "precio": "100",
+        "id": 9,
+        "title": "Té de hierbabuena x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr9.jpg"
+    },
+    {
+        "precio": "150",
+        "id": 10,
+        "title": "Té chai con canela x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr10.jpg"
+    },
+    {
+        "precio": "100",
+        "id": 11,
+        "title": "Té de fresas x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr11.jpg"
+    },
+    {
+        "precio": "115",
+        "id": 12,
+        "title": "Té con leche y fresas x 5 sobres",
+        "thumbnailUrl": "https://mythosnath.000webhostapp.com/proyecto_final/img/carr12.jpg"
+    }
+]

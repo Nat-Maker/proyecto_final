@@ -315,3 +315,11 @@ margin-left: 90%;
 .red img{
     width: 45%;
 }
+
+.logof{
+    width: 220px;
+    display: flex;
+    margin-left: 45%;
+    margin-top: -14%;
+    padding-bottom: 15px;
+}
