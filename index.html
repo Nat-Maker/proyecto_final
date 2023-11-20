@@ -5,30 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <title>Proyecto final</title>
 </head>
 
 <body>
     <nav>
-        <a href="index.html">
-            <h2>Inicio</h2>
-        </a>
-        <a href="tienda.html">
-            <h2>Tienda</h2>
-        </a>
-        <a href="#">
-            <h2>Ubicaciones</h2>
-        </a>
-        <a href="#">
-            <h2>Nosotros</h2>
-        </a>
-        <a href="#">
-            <h2>Cuenta</h2>
-        </a>
-        <div class="buscar">
-            <input type="text" placeholder="Buscar" required>
-        </div>
+        <input type="checkbox" id="menu" style="position: relative;"> <label for="menu">☰</label>
+        <ul>
+            <li><a href="index.html">
+                    <h2>Inicio</h2>
+                </a></li>
+            <li><a href="tienda.html">
+                    <h2>Tienda</h2>
+                </a></li>
+            <li><a href="ubicacion.html">
+                    <h2>Ubicaciones</h2>
+                </a></li>
+            <li><a href="us.html">
+                    <h2>Nosotros</h2>
+                </a></li>
+            <li><a href="cuenta/cuenta.php">
+                    <h2>Cuenta</h2>
+                </a></li>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar" required>
+            </div>
 
+        </ul>
     </nav>
 
     <header>

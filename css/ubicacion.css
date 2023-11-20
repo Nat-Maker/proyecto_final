@@ -11,16 +11,15 @@ body {
 /* menu */
 
 nav {
-    position: fixed;
-    display: inline-flex;
-    background-color: #455947;
-    width: 100%;
-    z-index: 1;
-    padding-top: 9%;
-    padding-bottom: 1%;
-    margin-top: -8%;
-    align-items: center;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #455947;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 nav h2 {
@@ -41,7 +40,19 @@ nav a:hover {
     background-color: #864622;
     padding: 15px;
     border-radius: 8px;
-    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
 }
 
 .buscar {
@@ -65,7 +76,6 @@ nav a:hover {
     transition: all 0.8s ease;
 }
 
-
 .buscar:hover input {
     width: 170px;
 }
@@ -74,8 +84,9 @@ nav a:hover {
 
 h1 {
     text-align: center;
-    padding-top: 6%;
+    padding-top: 7%;
     color: #383330;
+
 }
 
 /* mapa*/
@@ -88,7 +99,7 @@ h1 {
 
 .map {
     width: 50%;
-    height: 430px;
+    /* height: 40px; */
     background-color: #e0e0e0;
     filter: blur(2px);
     transition: 1s;
@@ -126,20 +137,22 @@ h1 {
 .contact-info button {
     background: #455947;
     border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    border: none;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
     padding: 12px 14px;
     text-align: center;
-    top: 17px;
-    left: 300px;
     position: relative;
     transition: .5s;
+    top: 5%;
+    display: flex;
+    margin: 0 auto;
 }
 
 .contact-info button:hover {
     background: #768a6f;
+    border: none;
 }
 
 
@@ -152,38 +165,22 @@ footer {
     margin-top: 15px;
 }
 
-.com li {
-    list-style: none;
-    margin-left: 1%;
-}
-
-.com h4 {
-    color: #d2aa54;
-}
-
-.com a {
-    text-decoration: none;
-    color: #c9d9c3;
-}
-
-.ayd {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.ayd h4 {
-    color: #d2aa54;
-}
-
-.ayd a {
-    text-decoration: none;
-    color: #c9d9c3;
-}
-
+.com li,
 .ayd li {
     list-style: none;
     margin-left: 1%;
+}
+
+.com h4,
+.ayd h4,
+.red h4 {
+    color: #d2aa54;
+}
+
+.com a,
+.ayd a {
+    text-decoration: none;
+    color: #c9d9c3;
 }
 
 .red h4 {
@@ -198,6 +195,11 @@ footer {
 
 .red img {
     width: 45%;
+    transition: .4s;
+}
+
+.red img:hover {
+    filter: brightness(120%);
 }
 
 .logof {
